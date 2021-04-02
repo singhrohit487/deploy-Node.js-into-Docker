@@ -58,10 +58,6 @@ To test your app, get the port of your app that Docker mapped:
 
 $ docker ps
 
-# Example
-ID            IMAGE                                COMMAND    ...   PORTS
-ecce33b30ebf  <your username>/node-web-app:latest  npm start  ...   49160->8080
-
 In the example above, Docker mapped the 8080 port inside of the container to the port 49160 on your machine.
 
 Now you can call your app using curl (install if needed via: sudo apt-get install curl):
